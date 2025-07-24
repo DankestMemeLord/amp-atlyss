@@ -13,6 +13,7 @@
     {
         "UpdateStageName": "BepInEx Download",
         "UpdateSourcePlatform": "All",
+        "UpdateSourceTarget": "atlyss-dedicated-server"
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.21/BepInEx_x64_5.4.21.0.zip",
         "UpdateSourceArgs": "BepInEx/BepInEx",
