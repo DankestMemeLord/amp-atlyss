@@ -12,37 +12,13 @@
         "OneShot": true
     },
     {
-        "UpdateStageName": "BepInEx Download",
+        "UpdateStageName": "Download Dedicated Server",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.21/BepInEx_x64_5.4.21.0.zip",
-        "UpdateSourceArgs": "BepInEx/BepInEx",
-        "UpdateSourceTarget": "./2768430/",
+        "UpdateSourceData": "https://github.com/DankestMemeLord/amp-atlyss-addons/releases/download/release/atlyss-server-addons.zip",
+        "UpdateSourceTarget": "2768430",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Download BepInEx Fixer",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://thunderstore.io/package/download/StuntedRaccoon/BepInEx_Fixer/1.5.8/",
-        "UpdateSourceTarget": "./2768430/",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Download DedicatedServer",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/Flee-Time/AtlyssDedicatedServer/releases/download/v0.0.4/Flees_AtlyssDedicatedServerV0.0.4.zip",
-        "UpdateSourceArgs": "Flee-Time/AtlyssDedicatedServer",
-        "UpdateSourceTarget": "./2768430/BepInEx/plugins/DedicatedServer",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
     }
