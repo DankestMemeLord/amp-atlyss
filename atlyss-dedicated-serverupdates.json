@@ -9,7 +9,7 @@
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Download Dedicated Server",
@@ -20,6 +20,6 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "OneShot": true
+        "SkipOnFailure": false
     }
 ]
