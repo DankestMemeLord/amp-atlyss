@@ -1,22 +1,23 @@
 [
     {
         "UpdateStageName": "Game Download",
-        "UpdateSourcePlatform": "Windows",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
         "UpdateSourceArgs": "2768430",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": true
     },
     {
         "UpdateStageName": "BepInEx Download",
         "UpdateSourcePlatform": "All",
-        "UpdateSourceTarget": "atlyss-dedicated-server"
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.21/BepInEx_x64_5.4.21.0.zip",
         "UpdateSourceArgs": "BepInEx/BepInEx",
+        "UpdateSourceTarget": "./2768430/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
@@ -27,6 +28,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://thunderstore.io/package/download/StuntedRaccoon/BepInEx_Fixer/1.5.8/",
+        "UpdateSourceTarget": "./2768430/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
@@ -38,7 +40,7 @@
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/Flee-Time/AtlyssDedicatedServer/releases/download/v0.0.4/Flees_AtlyssDedicatedServerV0.0.4.zip",
         "UpdateSourceArgs": "Flee-Time/AtlyssDedicatedServer",
-        "UpdateSourceTarget": "BepInEx/plugins/DedicatedServer",
+        "UpdateSourceTarget": "./2768430/BepInEx/plugins/DedicatedServer",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
