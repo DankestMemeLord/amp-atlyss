@@ -2,6 +2,7 @@
     {
         "UpdateStageName": "Game Download",
         "UpdateSourcePlatform": "Windows",
+        "ForceDownloadPlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
         "SkipOnFailure": false
