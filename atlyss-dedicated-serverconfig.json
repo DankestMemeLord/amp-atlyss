@@ -107,7 +107,7 @@
     },
     {
         "DisplayName": "Lobby Focus",
-        "Category": "Server Settings",
+        "Category": "ATLYSS Settings",
         "Description": "Set the focus of your instance.",
         "Keywords": "lobby,focus",
         "FieldName": "",
