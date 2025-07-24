@@ -1,14 +1,9 @@
 [
     {
         "UpdateStageName": "Game Download",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
-        "UpdateSourceArgs": "2768430",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
         "SkipOnFailure": false
     },
     {
