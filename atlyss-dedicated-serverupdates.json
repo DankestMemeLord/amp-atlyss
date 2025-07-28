@@ -4,6 +4,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
+        "UpdateSourceTarget": "serverfiles",
         "SkipOnFailure": false
     },
     {
