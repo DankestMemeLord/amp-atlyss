@@ -1,7 +1,7 @@
 Meta.DisplayName=ATLYSS Dedicated Server
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=Clownfish Corp. - Made with AMP Config Generator
+Meta.Author=DankestMemeLord
 Meta.URL=https://store.steampowered.com/app/2768430/ATLYSS/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:wine
