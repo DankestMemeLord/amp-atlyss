@@ -1,21 +1,25 @@
 [
     {
-        "UpdateStageName": "SteamCMD Game Download",
+        "UpdateStageName": "Server File Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "atlyss-server-addons.zip",
+        "UpdateSourceArgs": "DankestMemeLord/amp-atlyss-addons",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "ATLYSS Game Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
-        "UpdateSourceTarget": "serverfiles",
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Download Dedicated Server",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/DankestMemeLord/amp-atlyss-addons/releases/download/release/atlyss-server-addons.zip",
-        "UpdateSourceTarget": "2768430",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
+        "UpdateSourceArgs": "2768430",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
-        "SkipOnFailure": false
+        "OneShot": true
     }
 ]
