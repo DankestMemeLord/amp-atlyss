@@ -12,10 +12,10 @@
     },
     {
         "UpdateStageName": "ATLYSS Game Download",
+        "SkipOnFailure": false,
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2768430",
-        "UpdateSourceArgs": "2768430",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",
